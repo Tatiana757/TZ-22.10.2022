@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    overflow-x: hidden;
+}
+.headers{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.container-container{
+    padding: 50px 0;
+}
+.item{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+}
+.item .title p{
+    text-align: center;
+    font-weight: 600;
+}
+.item .preview p{
+    text-align: justify;
+    padding: 7px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.post{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+}
+.post .title p{
+    text-align: center;
+    font-weight: 600;
+}
+.post .description p{
+    text-align: justify;
+    padding: 10px;
+}
